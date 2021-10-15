@@ -1,0 +1,2 @@
+$(eval $(call addlib,appflexos3comptest))
+#APPFLEXOS3COMPTEST_SRCS-y += $(APPFLEXOS3COMPTEST_BASE)/main.c
