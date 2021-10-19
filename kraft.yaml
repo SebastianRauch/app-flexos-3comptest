@@ -18,6 +18,10 @@ compartments:
     mechanism:
       driver: vmept
       noisolstack: true
+  - name: comp3
+    mechanism:
+      driver: vmept
+      noisolstack: true
 libraries:
   tlsf:
     version: staging
@@ -32,5 +36,8 @@ libraries:
   flexos-3comptest1:
     version: staging
     compartment: comp2
+  flexos-3comptest2:
+    version: staging
+    compartment: comp3
 volumes: {}
 networks: {}
