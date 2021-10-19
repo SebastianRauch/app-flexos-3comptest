@@ -7,7 +7,7 @@ int main(int __unused argc, char __unused *argv[])
 {
 	uk_pr_info("Hello from main.\n");
 
-	flexos_gate(lib3comptest1, hello_lib1);
+	flexos_gate(libflexos3comptest1, hello_lib1);
 //	flexos_gate(lib3comptest2, hello_lib2);
 
 	return 0;
